@@ -41,3 +41,16 @@ body {
 .relogio span.tempo {
   font-size: 10px;
 }
+@media (max-width: 610px) {
+  .relogio {
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .relogio {
+    height: 600px;
+    width: 250px;
+  }
+}
