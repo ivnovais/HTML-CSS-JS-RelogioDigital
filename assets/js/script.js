@@ -6,4 +6,7 @@ const relogio = setInterval(function time() {
   let hr = dateToday.getHours();
   let min = dateToday.getMinutes();
   let sec = dateToday.getSeconds();
+  horas.textContent = hr;
+  segundos.textContent = sec;
+  minutos.textContent = min;
 });
